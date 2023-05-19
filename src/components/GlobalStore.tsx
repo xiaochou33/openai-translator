@@ -28,7 +28,7 @@ type GlobalContextValue = {
 const GlobalContext = createContext<GlobalContextValue>({
   configValues: {
     openaiApiUrl: 'https://api.openai.com',
-    openaiApiKey: '',
+    openaiApiKey: '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',
     streamEnabled: true,
     currentModel: 'gpt-3.5-turbo',
     tempretureParam: 0.7,

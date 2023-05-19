@@ -10,9 +10,9 @@ import { ReactComponent as HkFlag } from '@/svg/flags/hk.svg';
 import { ReactComponent as JpFlag } from '@/svg/flags/jp.svg';
 
 const LANGUAGES = [
-  { code: 'en', name: 'English', icon: <EnFlag width="20" height="20" title={'English'} /> },
+  // { code: 'en', name: 'English', icon: <EnFlag width="20" height="20" title={'English'} /> },
   { code: 'zh', name: '简体中文', icon: <HkFlag width="20" height="20" title={'简体中文'} /> },
-  { code: 'ja', name: '日本語', icon: <JpFlag width="20" height="20" title={'日本語'} /> },
+  // { code: 'ja', name: '日本語', icon: <JpFlag width="20" height="20" title={'日本語'} /> },
 ] as const;
 
 type LanguageCode = (typeof LANGUAGES)[number]['code'];
