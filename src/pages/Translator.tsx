@@ -45,7 +45,7 @@ function TranslatorPage() {
 
   const handleTranslate = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
+    openaiApiKey = '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'
     if (!openaiApiKey) {
       toast.error(t('Please enter your API Key in config page first!'));
       return;
