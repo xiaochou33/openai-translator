@@ -67,14 +67,14 @@ export function GlobalProvider(props: Props) {
   });
   const [configValues, setConfigValues] = useLocalStorage<ConfigValues>('extra-config', {
     openaiApiUrl: 'https://api.openai.com',
-    openaiApiKey: '',
+    openaiApiKey: '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',
     streamEnabled: true,
     currentModel: 'gpt-3.5-turbo',
     tempretureParam: 0.7,
   });
   const {
     openaiApiUrl = 'https://api.openai.com',
-    openaiApiKey = '',
+    openaiApiKey = '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',
     streamEnabled = true,
     currentModel = 'gpt-3.5-turbo',
     tempretureParam = 0.7,
