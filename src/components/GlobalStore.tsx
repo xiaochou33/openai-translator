@@ -28,7 +28,7 @@ type GlobalContextValue = {
 const GlobalContext = createContext<GlobalContextValue>({
   configValues: {
     openaiApiUrl: 'https://proxy.duckduck.asia/proxy-sse',
-    openaiApiKey: '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',
+    openaiApiKey: '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',
     streamEnabled: true,
     currentModel: 'gpt-3.5-turbo',
     tempretureParam: 0.7,
@@ -67,14 +67,14 @@ export function GlobalProvider(props: Props) {
   });
   const [configValues, setConfigValues] = useLocalStorage<ConfigValues>('extra-config', {
     openaiApiUrl: 'https://proxy.duckduck.asia/proxy-sse',
-    openaiApiKey: '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',
+    openaiApiKey: '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',
     streamEnabled: true,
     currentModel: 'gpt-3.5-turbo',
     tempretureParam: 0.7,
   });
   const {
     openaiApiUrl = 'https://proxy.duckduck.asia/proxy-sse',
-    openaiApiKey = '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',
+    openaiApiKey = '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',
     streamEnabled = true,
     currentModel = 'gpt-3.5-turbo',
     tempretureParam = 0.7,
